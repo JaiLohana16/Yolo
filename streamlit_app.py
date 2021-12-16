@@ -34,7 +34,7 @@ def obj_detection():
         my_bar = st.progress(0)
         
         confThreshold =st.slider('Confidence', 0, 100, 50)
-        nmsThreshold= st.slider('Threshold', 0, 100, 20)
+        nmsThreshold= st.slider('NMS Threshold', 0, 100, 20)
         whT = 320
         #### LOAD MODEL
         ## Coco Names
